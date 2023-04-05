@@ -37,7 +37,7 @@ namespace Chess
             SetStatus(false, "Choose New Game.");
 
             // setup menu
-            
+
             endCurrentGameToolStripMenuItem.Enabled = false;
         }
 

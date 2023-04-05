@@ -15,7 +15,8 @@ namespace Chess
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new StartScreen());
+            //Application.Run(new MainForm());
         }
     }
 }

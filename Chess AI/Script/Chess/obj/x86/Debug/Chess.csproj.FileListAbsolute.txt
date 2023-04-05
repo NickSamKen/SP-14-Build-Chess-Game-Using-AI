@@ -19,3 +19,16 @@ C:\MyDownloads\临时\202302 chess ai\00-20230222 github_cs_chessai\bin\debug\Ch
 C:\MyDownloads\临时\202302 chess ai\00-20230222 github_cs_chessai\bin\debug\Chess.pdb
 C:\MyDownloads\临时\202302 chess ai\00-20230222 github_cs_chessai\project\Chess\obj\x86\Debug\Chess.FrmAIsetting.resources
 C:\MyDownloads\临时\202302 chess ai\00-20230222 github_cs_chessai\bin\debug\Chess.xml
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\bin\debug\Chess.xml
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\bin\debug\Chess.exe
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\bin\debug\Chess.pdb
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\Script\Chess\obj\x86\Debug\Chess.csproj.AssemblyReference.cache
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\Script\Chess\obj\x86\Debug\Chess.FrmAIsetting.resources
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\Script\Chess\obj\x86\Debug\Chess.MainForm.resources
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\Script\Chess\obj\x86\Debug\Chess.Properties.Resources.resources
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\Script\Chess\obj\x86\Debug\Chess.csproj.GenerateResource.cache
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\Script\Chess\obj\x86\Debug\Chess.csproj.CoreCompileInputs.cache
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\Script\Chess\obj\x86\Debug\Chess.exe
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\Script\Chess\obj\x86\Debug\Chess.pdb
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\Script\Chess\obj\x86\Debug\Chess.StartScreen.resources
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI\Script\Chess\obj\x86\Debug\Chess.Credits.resources

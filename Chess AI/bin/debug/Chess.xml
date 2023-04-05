@@ -188,6 +188,28 @@
             </summary>
             <returns>True if no legal moves, or only kings left.</returns>
         </member>
+        <member name="M:Chess.Credits.#ctor">
+            <summary>
+            Credit form.
+            </summary>
+        </member>
+        <member name="F:Chess.Credits.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Chess.Credits.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Chess.Credits.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:Chess.FrmAIsetting">
             <summary>
             AI setting UI:WinForm
@@ -342,6 +364,33 @@
             The main entry point for the application.
             </summary>
         </member>
+        <member name="T:Chess.StartScreen">
+            <summary>
+            Start form that will open MainForm.
+            </summary>
+        </member>
+        <member name="M:Chess.StartScreen.#ctor">
+            <summary>
+            Start form that will open MainForm.
+            </summary>
+        </member>
+        <member name="F:Chess.StartScreen.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Chess.StartScreen.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Chess.StartScreen.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:Chess.Piece">
             <summary>
             Piece:Pawn,Rook,Knight,Bishop,Queen,King
@@ -389,17 +438,18 @@
         </member>
         <member name="T:Chess.Properties.Resources">
             <summary>
-              A strongly-typed resource class used for looking up localized strings, etc.
+              一个强类型的资源类，用于查找本地化的字符串等。
             </summary>
         </member>
         <member name="P:Chess.Properties.Resources.ResourceManager">
             <summary>
-              Return the ResourceManager instance of the cache used by this class.
+              返回此类使用的缓存的 ResourceManager 实例。
             </summary>
         </member>
         <member name="P:Chess.Properties.Resources.Culture">
             <summary>
-             Using this strongly-typed resource class, override the CurrentUICulture property of the current thread for looking up resources for all.
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
             </summary>
         </member>
     </members>
