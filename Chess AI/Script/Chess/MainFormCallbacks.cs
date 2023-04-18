@@ -64,17 +64,16 @@ namespace Chess
             switch (playerModes)
             {
                 case 0:
-                    Console.WriteLine("no pause");
                     break;
                 case 1:
-                    
-                    Console.WriteLine("White pause");
+                    tmrWhite.Stop();
                     break;
                 case 2:
-                    Console.WriteLine("Black pause");
+                    tmrWhite.Stop();
+                    tmrBlack.Stop();
                     break;
                 case 3:
-                    Console.WriteLine("both pause");
+                    tmrBlack.Stop();
                     break;
             }
         }
