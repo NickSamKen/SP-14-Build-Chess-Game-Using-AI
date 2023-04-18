@@ -14,7 +14,8 @@ namespace Chess
     /// MainForm : WinForm, UIBoard
     /// </summary>
     public partial class MainForm : Form, UIBoard
-    {        
+    {
+        int playerModes = 0;
         TimeSpan m_whiteTime = new TimeSpan(0);
         TimeSpan m_blackTime = new TimeSpan(0);
 
@@ -58,23 +59,47 @@ namespace Chess
             Stop();
         }
 
+        private void pauseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            switch (playerModes)
+            {
+                case 0:
+                    Console.WriteLine("no pause");
+                    break;
+                case 1:
+                    
+                    Console.WriteLine("White pause");
+                    break;
+                case 2:
+                    Console.WriteLine("Black pause");
+                    break;
+                case 3:
+                    Console.WriteLine("both pause");
+                    break;
+            }
+        }
+
         private void NewGame(object sender, EventArgs e)
         {
             ToolStripMenuItem button = (ToolStripMenuItem)sender;
             if (button.Text.StartsWith("New AI vs AI"))
             {
+                playerModes = 0;
                 NewGame(GameMode.BothAuto);
             }
             else if (button.Text.StartsWith("New BlackAI vs Player"))
             {
+                playerModes = 1;
                 NewGame(GameMode.BlackAuto);
             }
             else if (button.Text.StartsWith("New Player vs Player"))
             {
+                playerModes = 2;
                 NewGame(GameMode.Manual);
             }
             else if (button.Text.StartsWith("New WhiteAI vs Player"))
             {
+                playerModes = 3;
                 NewGame(GameMode.WhiteAuto);
             }
         }       

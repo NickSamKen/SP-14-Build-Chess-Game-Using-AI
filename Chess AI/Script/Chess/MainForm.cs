@@ -17,7 +17,8 @@ namespace Chess
     {
         bool m_aigame = false;
         bool m_checkmate = false;
-        bool m_manualBoard = false; // Don't init board on new game         
+        bool m_manualBoard = false; // Don't init board on new game
+        //int bwplayer = 0;
 
         FrmAIsetting frmAIseting = new FrmAIsetting();
 
@@ -54,7 +55,6 @@ namespace Chess
             m_aigame = false;
 
             // reset the menu
-            
             endCurrentGameToolStripMenuItem.Enabled = false;
         }
 
@@ -79,7 +79,11 @@ namespace Chess
             m_blackTime = new TimeSpan(0);
             lblWhiteTime.Text = m_whiteTime.ToString("c");
             lblBlackTime.Text = m_blackTime.ToString("c");
-
+            //turn off pause button during enemy team
+            /*if(gameMode == GameMode.Manual)
+            {
+                bwplayer = ;
+            }*/
             // show ai difficulty
             if (gameMode != GameMode.Manual && gameMode != GameMode.NotStarted)
             {
@@ -113,7 +117,6 @@ namespace Chess
                 this.Invoke(new Action(() => SetTurn(p)));
                 return;
             }
-
             // update the turn indicator
             if (chess != null)
             {
@@ -123,9 +126,8 @@ namespace Chess
             {
                 picTurn.Image = graphics.TurnIndicator[Player.WHITE];
             }
-
-            // if not creating a board
-            if (!m_manualBoard)
+                // if not creating a board
+                if (!m_manualBoard)
             {
                 // toggle whos timer is running
                 if (p == Player.WHITE)
@@ -184,8 +186,15 @@ namespace Chess
                 lblBlackCheck.Visible = chess.Turn == Player.WHITE;
                 lblWhiteOrBlackChecked.Visible = true;
             }
-
             txtLog.AppendText(move);
+            if (chess.Turn == Player.BLACK)
+            {
+                txtLog.AppendText(" \t" + lblBlackTime.Text) ;
+            }
+            if (chess.Turn == Player.WHITE)
+            {
+                txtLog.AppendText(" \t" + lblWhiteTime.Text);
+            }
         }
 
         public void SetStatus(bool thinking, string message)
@@ -217,5 +226,14 @@ namespace Chess
             frmAIseting.Show();
         }
 
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void splitView_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
