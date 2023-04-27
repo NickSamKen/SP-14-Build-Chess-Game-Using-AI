@@ -80,9 +80,9 @@ namespace Chess
             this.HaigeZhu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HaigeZhu.Location = new System.Drawing.Point(12, 272);
             this.HaigeZhu.Name = "HaigeZhu";
-            this.HaigeZhu.Size = new System.Drawing.Size(155, 37);
+            this.HaigeZhu.Size = new System.Drawing.Size(173, 37);
             this.HaigeZhu.TabIndex = 3;
-            this.HaigeZhu.Text = "Haige Zhu";
+            this.HaigeZhu.Text = "Haige (Evan) Zhu";
             this.HaigeZhu.UseVisualStyleBackColor = true;
             this.HaigeZhu.Click += new System.EventHandler(this.HaigeZhu_Click);
             // 
@@ -91,9 +91,10 @@ namespace Chess
             this.NicholasKennel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NicholasKennel.Location = new System.Drawing.Point(12, 186);
             this.NicholasKennel.Name = "NicholasKennel";
-            this.NicholasKennel.Size = new System.Drawing.Size(155, 37);
+            this.NicholasKennel.Size = new System.Drawing.Size(173, 37);
             this.NicholasKennel.TabIndex = 4;
             this.NicholasKennel.Text = "Nicholas Kennel";
+            this.NicholasKennel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.NicholasKennel.UseVisualStyleBackColor = true;
             this.NicholasKennel.Click += new System.EventHandler(this.NicholasKennel_Click);
             // 

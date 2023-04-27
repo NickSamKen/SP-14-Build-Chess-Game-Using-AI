@@ -30,3 +30,16 @@ D:\01 work\newShunwei\01 software project\03 20230323 chess AI phaseII\01-202303
 D:\01 work\newShunwei\01 software project\03 20230323 chess AI phaseII\01-20230327 cs_chessai\project\Chess\obj\x86\Debug\Chess.csproj.CoreCompileInputs.cache
 D:\01 work\newShunwei\01 software project\03 20230323 chess AI phaseII\01-20230327 cs_chessai\project\Chess\obj\x86\Debug\Chess.exe
 D:\01 work\newShunwei\01 software project\03 20230323 chess AI phaseII\01-20230327 cs_chessai\project\Chess\obj\x86\Debug\Chess.pdb
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\bin\debug\Chess.xml
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\bin\debug\Chess.exe
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\bin\debug\Chess.pdb
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\project\Chess\obj\x86\Debug\Chess.csproj.AssemblyReference.cache
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\project\Chess\obj\x86\Debug\Chess.Credits.resources
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\project\Chess\obj\x86\Debug\Chess.FrmAIsetting.resources
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\project\Chess\obj\x86\Debug\Chess.MainForm.resources
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\project\Chess\obj\x86\Debug\Chess.Properties.Resources.resources
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\project\Chess\obj\x86\Debug\Chess.StartScreen.resources
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\project\Chess\obj\x86\Debug\Chess.csproj.GenerateResource.cache
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\project\Chess\obj\x86\Debug\Chess.csproj.CoreCompileInputs.cache
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\project\Chess\obj\x86\Debug\Chess.exe
+D:\Users\New folder\UnityProjects\SP-14-Build-Chess-Game-Using-AI\Chess AI 1.0\project\Chess\obj\x86\Debug\Chess.pdb
